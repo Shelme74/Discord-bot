@@ -1,0 +1,17 @@
+{
+  "author": {
+    "name": "Shelme74#0817"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "discord-rpc": "^3.1.0",
+    "discord.js": "^12.1.1"
+  },
+  "description": "Nothing to see here",
+  "devDependencies": {
+    "node-fetch": "latest"
+  },
+  "main": "app.js",
+  "name": "da-furst-bot",
+  "version": "1.4"
+}
