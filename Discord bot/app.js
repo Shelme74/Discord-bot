@@ -44,7 +44,7 @@ bot.on('message', message => {
             case "info":
                 switch (test) {
                     case 1:
-                        var infomsg = new Discord.RichEmbed()
+                        var infomsg = new Discord.MessageEmbed()
                             .setColor([189, 16, 224])
                             .setTitle(':robot: Bot\'s infos')
                             .addField("General-Commands", "!ping, !hello, !info, !tts")
@@ -54,7 +54,7 @@ bot.on('message', message => {
                         message.channel.send(infomsg);
                         break;
                     case 0: {
-                        var infomsg = new Discord.RichEmbed()
+                        var infomsg = new Discord.MessageEmbed()
                             .setColor([189, 16, 224])
                             .setTitle(':robot: Bot\'s infos')
                             .addField("General-Commands", "!ping, !hello, !info, !tts")
