@@ -74,11 +74,21 @@ bot.on('message', message => {
     }
 
     // reply to "I'm `something`" by "Hi `something` I'm dad!"
+    var dadbot = 0;
     if (message.content.indexOf("I\'m") === 0) {
+        dadbot = 1;
+    }
+    else if (message.content.indexOf("I\u2019m") === 0) {
+        dadbot = 1;
+    }
+    else {
+        dadbot = 0;
+    }
 
+    if (dadbot === 1) {
         var name = message.content.substring(4);
 
-        message.channel.send('Hi ' + name + '! I\'m dad!')
+        message.channel.send('Hi ' + name + '! I\u2019m dad!')
     }
 
 });
