@@ -2,7 +2,7 @@
   "author": {
     "name": "Shelme74#0817"
   },
-  "dependencies": {
+ "dependencies": {
     "bufferutil": "^4.0.1",
     "discord-rpc": "^3.1.0",
     "discord.js": "^12.1.1"
