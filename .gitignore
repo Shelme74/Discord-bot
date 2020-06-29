@@ -267,7 +267,7 @@ FakesAssemblies/
 
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
-Discord bot/node_modules/
+Discord bot/node_modules
 
 # Visual Studio 6 build log
 *.plg
