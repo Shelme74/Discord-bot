@@ -5,7 +5,7 @@ The correct syntax is
 ```javascript
 {
 	"id": "the_bot's_id",
-	"token": "the bot's token"
+	"token": "the_bot's_token"
 }
 ```
 
