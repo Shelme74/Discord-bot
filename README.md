@@ -11,7 +11,7 @@ The correct syntax is
 
 Once you have created the `auth.json` file, launch a console in the bot's directory and enter `npm install`. This will install the needed packages. Then, type `node .\app.js` on Windows or `node ./app.js` on Linux and macOS.
 
-*On Linux and macOS, make sure that the* `app.js` *file is marked as executable, otherwise it will not run*
+*On Linux and macOS, make sure that the* `app.js` *file is marked as executable, otherwise it may not run*
 
 **The program is provided "as is". Therefore I cannot be held responsible for any software and/or hardware malfunction, deterioration, corruption, nor any combination of all above.**
 
